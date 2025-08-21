@@ -1,0 +1,60 @@
+.user_card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  transition: background-color 0.3s ease;
+}
+
+.dark {
+  background-color: #1e2b48;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: #222731;
+}
+
+.user_card img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.user_card a {
+  font-weight: bold;
+  color: #0079ff;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.user_card p {
+  margin: 5px 0;
+}
+
+.user_card a:hover {
+  text-decoration: underline;
+}
+
+.user_card strong {
+  font-weight: 600;
+}
+
+.location_icon {
+  color: #0079ff;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 600px) {
+  .profile_info {
+    text-align: center;
+  }
+}
+

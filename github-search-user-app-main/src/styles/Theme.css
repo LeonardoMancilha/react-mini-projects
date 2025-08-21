@@ -1,0 +1,14 @@
+.user-card {
+  background: var(--card-bg);
+  color: var(--text-color);
+}
+
+:root {
+  --card-bg: white;
+  --text-color: #222;
+}
+
+body.dark {
+  --card-bg: #1e2a47;
+  --text-color: white;
+}
